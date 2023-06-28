@@ -305,7 +305,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 #section4 .community_btn{display:inline-block; /*width:185px;*/ width: 172px; height:62px; margin-top:68px; padding-left:60px; font-size:18px; font-weight:400; line-height:58px; color:#1a1a1a; border:1px solid #b5b5b5; border-radius:13px; background-color:#fff; background-image:url('../../images/main/btn_cafe.png'); background-position:left 16px center; background-size:28px 28px; background-repeat:no-repeat;}
 @media all and (max-width:1100px) {
     #section4{min-height:650px; padding-top:35px; background:url('../../images/main/bg_section4_m.png') no-repeat right bottom #fff; background-size:458px auto; text-align:center;}
-    #section4 .community_img{float:none; width:275px; height:245px; display:block; margin:30px auto 40px auto; background:url('../../images/main/img_moniter2.png') no-repeat; background-size:275px auto;}
+    #section4 .community_img{float:none; width:275px; height:245px; display:block; margin:30px auto 40px auto; background:url('../../images/main/mockup1.png') no-repeat; background-size:275px auto;}
     #section4 .community_img img{display:none;}
     #section4 .community_text{float:none; margin-left:0; padding-top:0;}
     #section4 .community_text1{font-size:22px; line-height:28px; color:#000;}
