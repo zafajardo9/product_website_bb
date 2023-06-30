@@ -1,7 +1,6 @@
 /* rowgroup */
 .rowgroup{position:relative;}
 
-/* 공통 */
 section{position:relative; overflow:hidden;}
 section h2{font-size:48px; font-weight:700; line-height:57px; letter-spacing:-0.2px;}
 section h2 span{display:block; font-size:24px; font-weight:300;}
@@ -14,7 +13,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 #section1{background:url('../../images/main/bg_section1.png') no-repeat center; background-size:cover;}
 #section1 .wrap{min-height:766px; padding-top:220px; transform:translateX(-130px); transition:all 0.3s ease-in-out;}
 #section1 .home_text{color:#fff;}
-/* ### 201118_수정 */
+/* ### 201118_asdf */
 #section1 .home_text .text1{font-size:38px; line-height:52px; opacity:0.8; letter-spacing:-1.14px;font-weight: 300;word-break: keep-all;}
 #section1 .home_text .text2{font-size:56px; font-weight:500; line-height:67px; margin-top:19px; letter-spacing:-1.68px;}
 #section1 .home_btn{position:relative; z-index:1; margin-top:118px;}
@@ -103,7 +102,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 @media all and (max-width:600px) {
     .rank { padding: 0 0 10px 0; }
     .rank .wrap{max-width:360px; padding:0; margin:0 auto;}
-    /* ### 201118_수정 */
+    /* ### 201118 */
     .rank .rank_item.n1,
     .rank .rank_item.n2 {width:50%;padding-top:20px;}
     .rank .rank_item.n3 {width:50%;padding-top:25px;}
@@ -112,7 +111,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
     /* .rank .rank_item.n4{padding-left:30px;} */
     /* .rank .rank_item.n4:after{display:none;} */
     /* .rank .rank_item.n5{padding-right:30px;} */
-    /* ### 201118_수정 */
+    /* ### 201118 */
     .rank .rank_item.n2 + .rank_item:after{display:none;}
 }
 
@@ -144,7 +143,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 #section2 .tab_list.n5:after{left:0; background-image:url('../../images/main/bg_point5.png'); background-size:50px 38px;}
 #section2 .tab_list.n6:after{left:0; background-image:url('../../images/main/bg_point6.png'); background-size:43px 43px;}
 #section2 .tab_list.n7:after{left:0; background-image:url('../../images/main/bg_point7.png'); background-size:53px 42px;}
-/* ### 201118_수정 */
+/* #############  */
 #section2 .tab_list.n8:after{left:0; background-image:url('../../images/main/bg_point8.png'); background-size:48px 36px;}
 #section2 .tab_list a{display:block; font-size:24px; font-weight:500; line-height:32px; color:#1a1a1a; letter-spacing:-0.48px; word-break:keep-all;}
 #section2 .tab_list.n1 a,
@@ -155,7 +154,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 #section2 .tab_list.n6 a,
 #section2 .tab_list.n7 a,
 #section2 .tab_list.n8 a{padding-left:120px; text-align:left;}
-/* ### 201118_수정 */
+/* #############  */
 #section2 .tab_list a span{margin-top:10px; font-size:18px; line-height:24px; letter-spacing:-0.2px; color:#555; font-weight:300;width:100%;}
 #section2 .tab_list.active:before{background-image:none; background-color:#4E3EC8; box-shadow:0 5px 20px 0 rgba(28, 118, 229, 0.33);}
 #section2 .tab_list.n1.active:after{background-image:url('../../images/main/bg_point1_on.png');}
@@ -185,7 +184,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
     #section2 .tab_list.n5:after{background-image:url('../../images/main/bg_point5_m.png'); background-size:27px 20px;}
     #section2 .tab_list.n6:after{background-image:url('../../images/main/bg_point6_m.png'); background-size:23px 23px;}
     #section2 .tab_list.n7:after{background-image:url('../../images/main/bg_point7_m.png'); background-size:28px 23px;}
-    /* ### 201118_수정 */
+    /* #############  */
     #section2 .tab_list.n8:after{background-image:url('../../images/main/bg_point8_m.png'); background-size:25px 19px;}
     #section2 .tab_list.n1.active:after{background-image:url('../../images/main/bg_point1_m_on.png');}
     #section2 .tab_list.n2.active:after{background-image:url('../../images/main/bg_point2_m_on.png');}
@@ -301,7 +300,7 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 #section4 .community_text{float:left; margin-left:114px; padding-top:80px; font-weight:300;}
 #section4 .community_text1{font-size:32px; font-weight:700; line-height:44px; color:#1a1a1a;}
 #section4 .community_text2{margin-top:18px; font-size:24px; line-height:36px; color:#555;}
-/* ### 201118_수정 */
+/* #############  */
 #section4 .community_btn{display:inline-block; /*width:185px;*/ width: 172px; height:62px; margin-top:68px; padding-left:60px; font-size:18px; font-weight:400; line-height:58px; color:#1a1a1a; border:1px solid #b5b5b5; border-radius:13px; background-color:#fff; background-image:url('../../images/main/btn_cafe.png'); background-position:left 16px center; background-size:28px 28px; background-repeat:no-repeat;}
 @media all and (max-width:1100px) {
     #section4{min-height:650px; padding-top:35px; background:url('../../images/main/bg_section4_m.png') no-repeat right bottom #fff; background-size:458px auto; text-align:center;}
@@ -335,27 +334,27 @@ section h2 span{display:block; font-size:24px; font-weight:300;}
 }
 
 
-/* ### 210908_추가 */
+/* #############  */
 .ck_modal {
     max-width: 490px; position: fixed; right: 50px; bottom: 60px; z-index: 999;
     padding: 45px 50px 35px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -ms-border-radius: 15px; -o-border-radius: 15px;
     border-radius: 15px; border: 1px solid rgba(226, 226, 226, 0.5); background-color: #fff; box-shadow: 0 5px 20px 0 rgba(0,0,0,0.1);
 }
 
-/* 닫기 버튼 */
+/* asdf */
 .ck_modal .close { width: 36px; height: 36px; display: inline-block; position: absolute; top: 30px; right: 32px; }
 .ck_modal .close img { width: 100%; height: 100%; }
 
-/* 타이틀 */
+/* asdf */
 .ck_modal h4 { font-size: 24px; line-height: 28px; font-weight: 700; text-align: left; color: #1a1a1a; margin-bottom: 13px; }
 
-/* 내용 */
+/* asdf */
 .ck_modal p { font-size: 17px; line-height: 24px; font-weight: 300; text-align: left; color: #555; margin-bottom: 35px; word-break: break-word; }
 
-/* 링크 */
+/* adsf */
 .ck_modal p a { font-size: 17px; line-height: 24px; font-weight: 300; text-align: left; color: #555; word-break: break-word; text-decoration: underline; }
 
-/* 버튼 */
+/* asdf */
 .ck_modal .btn_wrap { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; }
 .ck_modal button {
     height: 60px; font-size: 17px; font-weight: 300; padding: 0 30px; box-sizing: border-box;
